@@ -3,18 +3,19 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vercel dev",
+    "vercel": "vercel dev",
+    "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
     "@element-plus/theme-chalk": "^2.2.16",
-    "axios": "^0.27.2",
-    "element-plus": "^2.4.4",
-    "http-proxy-middleware": "^2.0.6",
-    "vue": "^3.3.12",
-    "vue-router": "^4.2.5",
-    "vuex": "^4.0.2"
+    "axios": "^1.7.2",
+    "element-plus": "^2.7.7",
+    "http-proxy-middleware": "^3.0.0",
+    "vue": "^3.4.33",
+    "vue-router": "^4.4.0",
+    "vuex": "^4.1.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^5.0.8",
@@ -22,6 +23,7 @@
     "@vue/cli-plugin-vuex": "^5.0.8",
     "@vue/cli-service": "^5.0.8",
     "@vue/eslint-config-standard": "^8.0.1",
-    "vercel": "^33.7.0"
+    "babel-core": "^6.26.3",
+    "vercel": "^35.1.0"
   }
 }
